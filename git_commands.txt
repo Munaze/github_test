@@ -1,0 +1,10 @@
+Git Commands
+-Create git repository on the Github
+-then git clone the remote repository to local machine
+  * git clone <remote repo URL> 
+-Create a new file and add it 
+  * git add <file name>
+-commit the changes to local repo
+  * git commit -m "message"
+-push the changes to remote repo 
+  * git push 
