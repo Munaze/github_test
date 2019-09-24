@@ -13,7 +13,7 @@ Git Commands
   * git config user.email "john@doe"
 --  modify global configuration --
   * git config --global  user.xx...
-- all the branching code is in mybranch 
+- all the branching code is in my_branch 
 - Now i will mearge this branch to master branch
   * git merge master
 	
