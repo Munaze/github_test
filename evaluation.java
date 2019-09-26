@@ -10,6 +10,33 @@ return res;
 
 
 public static void main(String[] args){
+System.out.println("Menu");
+System.out.println("enter your choice(1 for addition, 2 for subtraction, 3 for multplication");
+Scanner sc= new Scanner(System.in);
+int choice=1;
+int num1=5;
+int num2=4;
+int res=0;
+evaluation eval=new evaluation();
+sub su=new sub();
+multiply mult=new multiply();
+switch(choice){
+	
+	case 1: 
+		System.out.println(eval.add(num1,num2));
+		break;
+	case 2:
+		System.out.println(su.subtract(num1,num2));
+		break;
+	case 3:
+		System.out.println(mult.multi(num1,num2));
+		break;
+	default:
+		System.out.println("invalid input");
+
+
+
+}
 
 }
 }
